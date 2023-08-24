@@ -1,0 +1,341 @@
+/* setting defaults */
+body {
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+*{
+    /* border: 1px solid red; */
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.top {
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    
+}
+
+.navbar ul li {
+    height: 18px;
+    padding: 4px;
+}
+
+.navbar ul {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+}
+
+.donate button {
+    background:#FFA800;
+    width: 127px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.image_holder {
+    display: flex;
+    height: 702px;
+    background-image: url("../images/people_2.jpg");
+    background-color: #e775f1;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* object-fit: cover; */
+    position: relative;
+}
+
+.image_text_container {
+    width: 100%;
+    position: absolute;
+    top: 357px;
+    box-shadow: 0px 4px 4px 0px #00000010, 0px -4px 4px 0px #00000010;
+}
+
+.image_text {
+    text-align: center;
+    color: #ffffff;
+}
+
+.quick_links {
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+}
+
+.last_messages {
+    height: 59px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live_stream {
+    height: 60px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFA800;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.06);
+}
+
+.time_container {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.church_logo {
+    height: 50px;
+    width: fit-content;
+}
+
+.time_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50px;
+    width: fit-content;
+}
+
+.time_topic {
+    height: 50px;
+    width: fit-content;
+}
+
+
+.time_detail {
+    height: 50px;
+    width: fit-content;
+}
+
+
+/* typography*/
+.time h3, h4 {
+    margin: 0px;
+}
+
+.mission_vision {
+    padding: 51px 0px;
+    display: flex;
+    margin-top: 96px;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;    
+}
+
+.mv_case h4 {
+    text-align: center;
+    margin: 20px 0px;
+    color: #FFA800;
+}
+
+.core_values {
+    position: relative;
+    margin-top: 96px;
+    background-image: url(../images/bg_image.png);
+    background-color: aqua;
+    height: 900px;
+    /* height: 730px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv_header {
+    position: absolute;
+    top: 60px;
+    left: 176px;
+}
+
+.cv_cards {    
+    position: absolute;
+    top: 216px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card {
+    /* box-shadow: 0px 4px 4px 0px rgba(0,0,0,0,0.06); */
+    /* background: red;  */
+}
+
+.card_image{
+    width: 100%;
+}
+
+.card_text {
+    background: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.card_text h3 {
+    margin: 0;
+}
+
+
+.excellence, .discipleship{
+    position: relative;
+    top: 160px;
+}
+
+.members_testimonies {
+    width: 100%;
+}
+
+.quotes {
+    /* width: 40%; */
+    background-image: url(../assets/bi_quote.png);
+    height: 264px;
+    background-position: 236px 64px;
+    background-repeat: no-repeat;
+    /* background-size: ; */
+}
+.congregation {
+    /* width: 40%; */
+    background-image: url(../images/Frame_60.png);
+    height: 471px;
+    background-position: 1300px 64px;
+    /* background-position: right bottom; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.upcoming_events {
+    padding: 50px 0;
+    margin-top: 96px;
+    /* width: 100%; */
+}
+
+.event_detail {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event_topic h2 {
+    margin-left: 100px;
+}
+
+.event_cards {
+    display: flex;
+    /* gap: 40px; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.event_buttons {
+    position: absolute;
+    top: 60px;
+    right: 210px;
+}
+
+.button {
+    border: none;
+    width: 24px;
+    height: 24px;
+    color: #02006C;
+    background-color: inherit;
+    outline: none;
+    padding: 4px;
+}
+
+.prayer_blog {
+    margin-top: 96px;
+    background-image: url(../images/bg_image.png);
+    background-color: aqua;
+    height: 630px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog_text, .prayer_text {
+    color:#FFA800;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+footer {
+    padding: 60px;
+    margin-top: 96px;
+    height: 620px;
+    background-image: url(../images/Frame_177.png);
+}
+
+.newsletter{
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.newsletter input[type="text"] {
+    width: 469px;
+    height: 68px;
+    border: 3px solid #02006CA3;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 4px 8px;
+}
+
+#email-btn {
+    /* padding:  */
+    height: 68px;
+    border: none;
+    width: 206px;
+    outline: none;
+    background-color: #02006C;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.brand_log {
+    width: 100%;
+}
+
+.reaching_out {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
